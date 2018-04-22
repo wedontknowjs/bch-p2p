@@ -1,0 +1,34 @@
+{
+  "name": "@wedontknowjs/bch-p2p",
+  "version": "0.0.6",
+  "description": "Interface to the bitcoin cash P2P network for Bch Node.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "gulp lint",
+    "test": "gulp test:node",
+    "coverage": "gulp coverage",
+    "build": "gulp"
+  },
+  "keywords": [
+    "bitcoin",
+    "bch"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wedontknowjs/bch-p2p.git"
+  },
+  "dependencies": {
+    "@wedontknowjs/bch-lib": "^0.0.6",
+    "@wedontknowjs/buffers": "^0.0.2",
+    "bloom-filter": "^0.2.0",
+    "socks5-client": "^0.3.6"
+  },
+  "devDependencies": {
+    "@wedontknowjs/ows-build": "^0.0.3",
+    "brfs": "^1.2.0",
+    "chai": "~1.10.0",
+    "gulp": "^3.8.10",
+    "sinon": "^1.12.2"
+  },
+  "license": "MIT"
+}
